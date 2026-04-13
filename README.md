@@ -1,4 +1,4 @@
-# 🧩 Small Business Network Lab (EVE-NG)
+# Small Business Network Lab (EVE-NG)
 
 ---
 
@@ -99,7 +99,7 @@ Further design details can be found in:
 
 A visual representation of the network:
 
-📁 `topology/network-diagram.png`
+![Network Topology](topology/topology-layout.png)
 
 ---
 
