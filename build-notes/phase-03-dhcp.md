@@ -54,7 +54,9 @@ Relevant configuration can be found in:
 
 ## Host Configuration
 
-All VPCS devices were reconfigured to obtain IP addresses dynamically using DHCP.
+All VPCS devices were reconfigured to obtain IP addresses dynamically using DHCP and therefore do not have persistent configuration files.
+
+- VPCS command used: `ip dhcp`
 
 This replaced the static IP configuration used in Phase 2.
 
