@@ -19,12 +19,24 @@ vlan 40
 interface g0/0
  switchport mode access
  switchport access vlan 10
+ spanning-tree portfast
 
 interface g0/3
  switchport mode access
  switchport access vlan 20
+ spanning-tree portfast
 
 interface g0/2
  switchport trunk encapsulation dot1q
  switchport mode trunk
  switchport trunk allowed vlan 10,20,30,40
+
+
+enable
+configure terminal
+
+interface g0/1
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,40
+ no shutdown

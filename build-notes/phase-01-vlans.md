@@ -41,6 +41,14 @@ Relevant configuration can be found in:
 * SW1: [SW1 configuration](../configs/SW1.txt)
 * SW2: [SW2 configuration](../configs/SW2.txt)
 
+## PortFast Configuration
+
+PortFast was enabled on access ports connected to end devices to allow them to transition immediately to a forwarding state.
+
+This reduces the delay experienced by hosts when connecting to the network.
+
+PortFast was not enabled on trunk links between switches.
+
 ## Trunk Configuration
 
 A trunk link was configured between the two switches to allow traffic from multiple VLANs to pass between them.

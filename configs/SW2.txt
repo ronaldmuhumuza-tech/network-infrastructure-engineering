@@ -19,10 +19,12 @@ vlan 40
 interface g0/2
  switchport mode access
  switchport access vlan 30
+ spanning-tree portfast
 
 interface g0/3
  switchport mode access
  switchport access vlan 40
+ spanning-tree portfast
 
 interface g0/1
  switchport trunk encapsulation dot1q
