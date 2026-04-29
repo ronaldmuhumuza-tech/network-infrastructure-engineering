@@ -99,7 +99,7 @@ Further design details can be found in:
 A visual representation of the network:
 
 <p align="center">
-  <img src="doc/topology.png" alt="Network Topology" width="300"/>
+  <img src="docs/topology.png" alt="Network Topology" width="300"/>
 </p>
 
 ## **Implementation Approach**
@@ -116,13 +116,16 @@ The network is being built in stages for structure and to reflect the core tasks
 
 Device configurations are stored in:
 
-- [configs/](configs/)
+- [Device configs](./configs/)
 
 ## **Build Notes**
 
 Additional notes for each stage of the build:
 
-- [notes/](docs/notes/)
+- [VLANs](./notes/vlans.md)
+- [Inter-VLAN Routing](./notes/inter-vlan-routing.md)
+- [DHCP](./notes/dhcp.md)
+- [Troubleshooting](./notes/troubleshooting.md)
 
 ## **Testing Summary**
 
@@ -138,11 +141,11 @@ Further testing will be performed to validate:
 * Secure remote management via SSH
 * Additional security controls introduced in later phases
 
-Detailed validation results will be documented in the [screenshots/](docs/screenshots/) directory.
+Detailed validation results will be documented in the [screenshots/](./docs/screenshots/) directory.
 
 ## **Troubleshooting**
 
-Issues encountered during the build and how they were resolved are documented in the [notes/](docs/notes/) directory.
+Issues encountered during the build and how they were resolved are documented in the [notes/](./notes/) directory.
 
 ## **Reflection**
 This project provides a practical way to explore how networking concepts translate into real-world scenarios.
