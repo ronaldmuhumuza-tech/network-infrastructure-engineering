@@ -92,15 +92,14 @@ Private addressing (192.168.x.x) was used in line with common practice for inter
 
 Further design details can be found in:
 
-- [High-Level Design](docs/high-level-design.md)
-- [Low-Level Design](docs/low-level-design.md)
+- [Design](docs/design.md)
 
 ## **Topology**
 
 A visual representation of the network:
 
 <p align="center">
-  <img src="topology/topology-layout.png" alt="Network Topology" width="300"/>
+  <img src="doc/topology.png" alt="Network Topology" width="300"/>
 </p>
 
 ## **Implementation Approach**
@@ -123,7 +122,7 @@ Device configurations are stored in:
 
 Additional notes for each stage of the build:
 
-- [build-notes/](build-notes/)
+- [notes/](docs/notes/)
 
 ## **Testing Summary**
 
@@ -139,11 +138,11 @@ Further testing will be performed to validate:
 * Secure remote management via SSH
 * Additional security controls introduced in later phases
 
-Detailed validation results will be documented in the [tests/](tests/) directory.
+Detailed validation results will be documented in the [screenshots/](docs/screenshots/) directory.
 
 ## **Troubleshooting**
 
-Issues encountered during the build and how they were resolved are documented in the [notes/](notes/) directory.
+Issues encountered during the build and how they were resolved are documented in the [notes/](docs/notes/) directory.
 
 ## **Reflection**
 This project provides a practical way to explore how networking concepts translate into real-world scenarios.
