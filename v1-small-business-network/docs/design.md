@@ -1,4 +1,4 @@
-# High-Level Design
+# Design
 This network is designed to simulate a small business environment where different departments are logically separated while still allowing controlled communication.
 
 The network is divided into the following segments:
