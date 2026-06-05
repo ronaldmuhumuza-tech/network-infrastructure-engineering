@@ -1,37 +1,51 @@
 # Network Infrastructure Engineering
 
-Design and implementation of enterprise network infrastructure, progressing from Layer 2 foundations to routing and hybrid cloud integration.
+Infrastructure and systems engineering projects focused on enterprise networking, Linux platforms, wireless infrastructure and operational services.
 
 ---
 
 ## Overview
 
-A versioned project simulating the evolution of a real-world network — from small business setup to scalable enterprise architecture.
+This repository contains hands-on infrastructure engineering projects developed to explore the design, deployment and operation of enterprise-style environments.
 
 ---
 
 ## Projects
 
-**[v1 – Small Business Network](./v1-small-business-network/)**
-VLANs, inter-VLAN routing, core services
+### [Netcore v2](./netcore-v2/)
 
-**v2 – Enterprise Enhancements (planned)**
-Redundancy, STP, EtherChannel
+Enterprise infrastructure laboratory developed within EVE-NG.
 
-**v3 – Routing Integration (planned)**
-OSPF, scalable network design
+Current development includes:
 
-**v4 – Hybrid Network (planned)**
-Cloud integration and hybrid connectivity
+- Enterprise networking
+- Linux systems administration
+- Wireless infrastructure
+- Infrastructure services
+- Monitoring and observability
+- Automation
+
+### [v1 – Small Business Network](./v1-small-business-network/)
+
+Foundational networking project covering:
+
+- VLAN implementation
+- Inter-VLAN routing
+- Core network services
+- Small business network design
 
 ---
 
-## Stack
+## Technology Stack
 
-Packet Tracer / GNS3 • VLANs • STP • EtherChannel • OSPF • TCP/IP
+Cisco IOS-XE • Cisco Catalyst 9800-CL • Ubuntu Server 24.04 • EVE-NG • Git • GitHub
 
 ---
 
-## Goal
+## Engineering Principles
 
-Simulation → Enterprise Design → Hybrid Infrastructure
+- Operational validation
+- Incremental delivery
+- Documentation and reproducibility
+- Secure deployment practices
+- Infrastructure automation
